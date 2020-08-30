@@ -11,6 +11,6 @@ app.use('/',express.static(__dirname+'/static'))
 
 
 let port =  process.env.PORT || 4444 
-httpServer.listen(port,()=>{
+app.listen(port,()=>{
     console.log("http://localhost:4444")
 })
