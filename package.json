@@ -19,6 +19,7 @@
   "homepage": "https://github.com/AtrijSharma/musicPlayer#readme",
   "description": "",
   "dependencies": {
+    "express": "^4.17.1",
     "nodeman": "^1.1.2",
     "nodemon": "^2.0.4"
   }
