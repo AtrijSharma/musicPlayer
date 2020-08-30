@@ -9,7 +9,7 @@ let todo=[]
 app.use('/',express.static(__dirname+'/static'))
 
 
-
-app.listen(4444,()=>{
+let port =  process.env.PORT || 4444 
+app.listen(port,()=>{
     console.log("http://localhost:4444")
 })
